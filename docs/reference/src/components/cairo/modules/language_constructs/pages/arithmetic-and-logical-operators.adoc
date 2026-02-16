@@ -139,7 +139,7 @@ fn main() {
 == Assignment operators
 
 Cairo also provides compound assignment operators (`+=`, `-=`, `*=`, `/=`, `%=`) via traits in
-`core::ops`. See `core::ops::{AddAssign, SubAssign, MulAssign, DivAssign, RemAssign}`.
+`core::ops::arith`. See `core::ops::arith::{AddAssign, SubAssign, MulAssign, DivAssign, RemAssign}`.
 
 == References (source)
 
